@@ -5,6 +5,7 @@
 #include <cstring>
 
 #include "utils.h"
+#include "output.cu"
 
 void image_transform(float *__restrict__ packed_image,
                      float *__restrict__ V,
